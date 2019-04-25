@@ -81,12 +81,12 @@ public class movementInput : MonoBehaviour
             { 
                 if (foo2.collider.name == "Possum")
                 {
-                    GameObject.Find("Possum").GetComponent<possum>().speed = 4f;
-                    Debug.Log("The possum sees me!");
+                    GameObject.Find("Possum").GetComponent<possum>().speed = 8f;
+                    //Debug.Log("The possum sees me!");
                 } else
                 {
                     GameObject.Find("Possum").GetComponent<possum>().speed = 2f;
-                    Debug.Log("The possum can't see me." + foo2.collider.name);
+                    //Debug.Log("The possum can't see me." + foo2.collider.name);
                 }
             }
         }

@@ -29,7 +29,7 @@ public class shakeDelete : MonoBehaviour
             yield return new WaitForSeconds(.05f);
         }
 
-        GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
+        GetComponent<Rigidbody2D>().constraints =  RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
 
         //Destroy(gameObject);
     }
